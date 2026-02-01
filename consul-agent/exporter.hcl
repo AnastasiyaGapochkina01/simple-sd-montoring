@@ -1,0 +1,8 @@
+"service" = {
+  "Name" = "node-exporter"
+  "Port" = 9100
+  "check" = {
+    args     = ["curl", "-f", "-s", "-o", "/dev/null", "-w", "%{http_code}", "127.0.0.1:9100/metrics"]
+    "interval" = "3s"
+  }
+}

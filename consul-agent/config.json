@@ -1,0 +1,20 @@
+{
+    "advertise_addr": "91.197.99.35",
+    "server": false,
+    "client_addr": "0.0.0.0",
+    "datacenter": "monitoring-sd",
+    "node_name": "clinet-1",
+    "data_dir": "/var/lib/consul",
+    "domain": "consul",
+    "enable_local_script_checks": true,
+    "leave_on_terminate": true,
+    "log_level": "INFO",
+    "rejoin_after_leave": true,
+    "retry_join": [
+        "89.111.168.136"
+    ],
+    "start_join": [
+        "89.111.168.136"
+    ],
+    "ui_config": { "enabled": false }
+}
