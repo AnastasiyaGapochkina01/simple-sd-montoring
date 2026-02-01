@@ -28,7 +28,7 @@ consul.d/
 После того, как consul-agent успешно запустился и подключился к consul-server в UI consul-server смотреть во вкладку **Services**
 ![alt text](image.png)
 
-В конфигурационный файл `prometheus.yml` добавить секцию (см файл )
+В конфигурационный файл `prometheus.yml` добавить секцию (см файл https://github.com/AnastasiyaGapochkina01/simple-sd-montoring/blob/main/prometheus.yml)
 ![alt text](image-1.png)
 
 Если не добавлять `relabel_configs`, то в target'ах будут все эндпоинты всех сервисов вперемешку.
